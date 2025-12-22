@@ -10,4 +10,4 @@ const UserSchema = new mongoose.Schema({
     weight: { type: Number },
 }, { timestamps: true });
 
-module.exports = mongoose.model('User', UserSchema);
+module.exports = mongoose.model('ProjectUser', UserSchema);
